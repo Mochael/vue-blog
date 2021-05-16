@@ -1,0 +1,114 @@
+{
+  "main": {
+    "id": "14c04af751371dfb",
+    "type": "split",
+    "children": [
+      {
+        "id": "619b910baf60e8f4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "ARM Processor Architecture.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "48b1f32fb27b9c09",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "What is firmware.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ff1524ef3d8f878a",
+    "type": "split",
+    "children": [
+      {
+        "id": "9b18e6bd5304f541",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "66e70812e15a0dff",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "de4f652b11a229ff",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "vue",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 236
+  },
+  "right": {
+    "id": "6b5fa2ce5f37536f",
+    "type": "split",
+    "children": [
+      {
+        "id": "0f78b80d0951f608",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "317cf99371bff5d1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ARM Processor Architecture.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "619b910baf60e8f4",
+  "lastOpenFiles": [
+    "ARM Processor Architecture.md",
+    "What is Vue.js.md",
+    "What is firmware.md",
+    "Untitled.md",
+    "Using nonparametric models in doubly robust estimator.md",
+    "Cache vs Session Store.md",
+    "Web Storage API vs Cookies.md",
+    "What is Redis.md",
+    "Local and Session Storage vs Cookies.md",
+    "How to Build a Full Stack Application.md"
+  ]
+}
