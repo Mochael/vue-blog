@@ -6,3 +6,4 @@ dist
 .npmrc
 .yarnrc
 example/posts/.obsidian/
+example/posts/.ztr-directory

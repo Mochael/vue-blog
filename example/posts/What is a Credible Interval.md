@@ -6,6 +6,8 @@ header_img: /img/in-post/new_header1.jpg
 header_mask: rgba(40, 57, 101, .4)
 header_style: image
 subtitle: No subtitle
+tags:
+- notes
 title: What is a Credible Interval
 tree_state: 🌿
 ---

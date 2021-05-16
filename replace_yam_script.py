@@ -10,7 +10,7 @@ from datetime import date
 today = date.today()
 my_date = today.strftime("%Y-%m-%d")
 
-dir_path = '/Users/michaelkronovet/Desktop/vuepress-theme-gungnir/example/.vuepress/public/img/in-post'
+dir_path = '/Users/michaelkronovet/Desktop/vuepress-blog/example/.vuepress/public/img/in-post'
 img_list = []
 for filename in os.listdir(dir_path):
     if filename.endswith(".jpg") or filename.endswith(".png"):
@@ -18,12 +18,14 @@ for filename in os.listdir(dir_path):
 
 
 global_date = None
-with open("/Users/michaelkronovet/Desktop/digital_garden/_notes/Bayesian Average.md", "r") as file:
+global_tags = None
+with open("/Users/michaelkronovet/Desktop/vuepress-blog/example/posts/5G and WiFi.md", "r") as file:
     post = frontmatter.load(file)
     global_date = post['date']
+    global_tags = post['tags']
 
 
-directory = '/Users/michaelkronovet/Desktop/vuepress-theme-gungnir/example/posts'
+directory = '/Users/michaelkronovet/Desktop/vuepress-blog/example/posts'
 for filename in os.listdir(directory):
     print(filename)
     # if filename.endswith(".md"):
@@ -40,6 +42,7 @@ for filename in os.listdir(directory):
             post['header_img'] = random.choice(img_list)
             post['header_mask'] = 'rgba(40, 57, 101, .4)'
             post['catalog'] = True
+            post['tags'] = global_tags
             f = BytesIO()
             frontmatter.dump(post, f)
             with open(file_dir, "wb") as outfile:
